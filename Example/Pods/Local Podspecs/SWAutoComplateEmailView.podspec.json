@@ -1,0 +1,25 @@
+{
+  "name": "SWAutoComplateEmailView",
+  "version": "0.1.0",
+  "summary": "A short description of SWAutoComplateEmailView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SWAutoComplateEmailView",
+  "license": "MIT",
+  "authors": {
+    "sugar": "w90826@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SWAutoComplateEmailView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "SWAutoComplateEmailView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

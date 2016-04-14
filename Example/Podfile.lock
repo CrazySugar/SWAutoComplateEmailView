@@ -1,0 +1,14 @@
+PODS:
+  - SWAutoComplateEmailView (0.1.0)
+
+DEPENDENCIES:
+  - SWAutoComplateEmailView (from `../`)
+
+EXTERNAL SOURCES:
+  SWAutoComplateEmailView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SWAutoComplateEmailView: 72535a4b741aa63c659defb59cbd7205461cf7eb
+
+COCOAPODS: 0.39.0

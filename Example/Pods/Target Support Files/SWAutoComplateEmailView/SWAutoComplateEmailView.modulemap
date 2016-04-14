@@ -1,0 +1,6 @@
+framework module SWAutoComplateEmailView {
+  umbrella header "SWAutoComplateEmailView-umbrella.h"
+
+  export *
+  module * { export * }
+}
