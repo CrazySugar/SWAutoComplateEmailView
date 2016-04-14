@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SWAutoComplateEmailView_Example', :exclusive => true do
+  pod 'SWAutoComplateEmailView', :path => '../'
+end
+
+target 'SWAutoComplateEmailView_Tests', :exclusive => true do
+  pod 'SWAutoComplateEmailView', :path => '../'
+
+  
+end
