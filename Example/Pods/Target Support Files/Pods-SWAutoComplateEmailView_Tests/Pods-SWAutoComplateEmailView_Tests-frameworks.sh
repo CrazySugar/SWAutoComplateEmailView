@@ -85,7 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-SWAutoComplateEmailView_Tests/SWAutoComplateEmailView.framework"
+  install_framework "Pods-SWAutoComplateEmailView_Tests/TTTAttributedLabel.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-SWAutoComplateEmailView_Tests/SWAutoComplateEmailView.framework"
+  install_framework "Pods-SWAutoComplateEmailView_Tests/TTTAttributedLabel.framework"
 fi

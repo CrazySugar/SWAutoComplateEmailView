@@ -8,5 +8,5 @@ end
 target 'SWAutoComplateEmailView_Tests', :exclusive => true do
   pod 'SWAutoComplateEmailView', :path => '../'
 
-  
+  pod 'TTTAttributedLabel'
 end

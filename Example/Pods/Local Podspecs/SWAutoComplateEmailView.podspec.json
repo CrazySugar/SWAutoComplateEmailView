@@ -1,25 +1,30 @@
 {
   "name": "SWAutoComplateEmailView",
   "version": "0.1.0",
-  "summary": "A short description of SWAutoComplateEmailView.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SWAutoComplateEmailView",
+  "summary": "Email address auto completion.",
+  "description": "Auto complete email address while inputting. A subview of UIScrollView.",
+  "homepage": "https://github.com/CrazySugar/SWAutoComplateEmailView",
   "license": "MIT",
   "authors": {
     "sugar": "w90826@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SWAutoComplateEmailView.git",
+    "git": "https://github.com/CrazySugar/SWAutoComplateEmailView.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "7.1"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
   "resource_bundles": {
     "SWAutoComplateEmailView": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "TTTAttributedLabel": [
+
     ]
   }
 }

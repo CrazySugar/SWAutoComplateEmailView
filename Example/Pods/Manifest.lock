@@ -1,14 +1,18 @@
 PODS:
-  - SWAutoComplateEmailView (0.1.0)
+  - SWAutoComplateEmailView (0.1.0):
+    - TTTAttributedLabel
+  - TTTAttributedLabel (1.13.4)
 
 DEPENDENCIES:
   - SWAutoComplateEmailView (from `../`)
+  - TTTAttributedLabel
 
 EXTERNAL SOURCES:
   SWAutoComplateEmailView:
     :path: ../
 
 SPEC CHECKSUMS:
-  SWAutoComplateEmailView: 72535a4b741aa63c659defb59cbd7205461cf7eb
+  SWAutoComplateEmailView: 01c33f43ab92dd1b8c2cf6bd653f7c756d16d67d
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
 
 COCOAPODS: 0.39.0

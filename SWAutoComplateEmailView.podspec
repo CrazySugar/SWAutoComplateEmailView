@@ -11,12 +11,12 @@ Pod::Spec.new do |s|
   s.author           = { "sugar" => "w90826@gmail.com" }
   s.source           = { :git => "https://github.com/CrazySugar/SWAutoComplateEmailView.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '9.0'
+  s.platform     = :ios, '7.1'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
     'SWAutoComplateEmailView' => ['Pod/Assets/*.png']
   }
-
+  s.dependency 'TTTAttributedLabel'
 end
